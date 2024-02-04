@@ -1,0 +1,15 @@
+.navbar{
+    background-color: var(--darkBlue) !important;
+
+}
+
+.nav-link{
+    color: white !important;
+}
+
+
+
+.active {
+    background-color: var(--lightBlue) !important;
+
+}

@@ -1,4 +1,11 @@
+
+:root {
+  --darkBlue: #2C3E50;
+  --lightBlue: #1ABC9C;
+}
+
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +17,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav{
+  background-color: var(--darkBlue) !important;
+}
+
+h2{
+  display: inline-block;
+  font-weight: bold !important;
+  position: relative !important;
+}
+
+.line {
+  width: 100px !important;
+  margin: 0 10px;
+  border-radius: 0.3rem;
+  height: 5px;
+}
+
+
+.section-header{
+
+  text-align: center;
+}
+
+
+.dark-blue-text{
+  color: var(--darkBlue) !important;
+
+}
+
+.dark-blue-bg{
+  background-color: var(--darkBlue) !important;
+
+}
+
+.light-blue-bg {
+  background-color: var(--lightBlue) !important;
+
 }
